@@ -17,21 +17,21 @@
             <p>@Fabricio</p>
         </nav>
         <nav id="links">
-            <ul>
-                <li> 
-                    <a href="#" > 
+            <ul class="ul-icones_link">
+                <li class="li-links"> 
+                    <a href="#" class="a-icones_link"> 
                         <ion-icon id="i-links" name="logo-linkedin"></ion-icon> 
                     </a>
                 </li>
 
-                <li>
-                    <a href="#" > 
+                <li class="li-links">
+                    <a href="#" class="a-icones_link"> 
                         <ion-icon id="i-links" name="logo-behance"></ion-icon>
                     </a>
                 </li>
 
-                <li>
-                    <a href="#" >
+                <li class="li-links">
+                    <a href="#" class="a-icones_link">
                         <ion-icon id="i-links" name="logo-whatsApp"></ion-icon>
                     </a>
                 </li>
@@ -39,7 +39,7 @@
         </nav>
 
         <nav id="nav-bar">
-            <ul>
+            <ul class="ul-icones_nav-bar">
                 <li id="l-list"> 
                       <a href="#" class="l-nav">
                         <ion-icon id="p-link" name="home-outline"></ion-icon>
@@ -60,16 +60,29 @@
 
             </ul>
         </nav>
-
         
     </header>
     <main id="main-content">
+        <!-- MENU SUSPENSO -->
+        <a href="#menu" id="toggle"><span></span></a>
+
+            <div id="menu">
+                <ul class="ul-menu">
+                    <li class="l-navBar"><a href="#" class="a-navBar">Home</a></li>
+                    <li class="l-navBar"><a href="#" class="a-navBar">Abount</a></li>
+                    <li class="l-navBar"><a href="#" class="a-navBar">Contact</a></li>
+                </ul>
+            </div>
+        </a>
+
         <div id="txt-sobre">
-            <button id="hamburger-menu" onclick="toggleMenu()">&#9776;</button>
-        
-            <h1>Fabricio</h1>
-            <p id="p-sobre">Eu sou: <span class="typed" data-typed-items="Designer, Estudante"></span></p>
+            <div id="text">
+                <h1>Fabricio</h1>
+                <p id="p-sobre">Eu sou: <span class="typed" data-typed-items="Designer, Estudante"></span></p>
+
+            </div>
         </div>
+       
         
     </main>
     <script
